@@ -1,6 +1,10 @@
 # onepiece
 
-> a one piece Vue.js project about one piece demo
+>这是一个以海贼王为主题的Vue.js项目
+> This is a Vue.js project with the theme of One Piece
+
+线上预览地址：https://wengr.com/onepiece/
+
 
 ## Build Setup
 
