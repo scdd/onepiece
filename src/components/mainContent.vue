@@ -3,7 +3,7 @@
     <div class="header-box" id="header-box">
       <div class="container-box">
         <a :href="bannerUrl" target="_blank">
-          <img :src="bannerImg" class="banner-img" width="980" height="203" />
+          <img :src="bannerImg" class="banner-img" width="980" height="180" />
         </a>
       </div>
     </div>
@@ -90,7 +90,7 @@ export default {
   data() {
     return {
       bannerUrl: "https://www.iqiyi.com/lib/m_200067914.html?src=search",
-      bannerImg: "https://wengr.com/assets/banner-img.jpg",
+      bannerImg: "https://wengr.com/assets/banner-img.gif",
       pageData01: {
         title: "一、故事概况",
         intro: [
@@ -293,7 +293,7 @@ export default {
 .header-box a {
   display: block;
   width: 980px;
-  height: 203px;
+  height: 180px;
   position: relative;
   overflow: hidden;
 }
@@ -301,7 +301,7 @@ export default {
   display: block;
   margin: 0 auto;
   width: 980px;
-  height: 203px;
+  height: 180px;
   transform: scale(1, 1);
   transition: transform 0.5s;
 }
